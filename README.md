@@ -1,9 +1,9 @@
-# Turma: SI1N-ATurma: SI1N-A
-![Banco de dados](https://www.estudopratico.com.br/wp-content/uploads/2015/08/banco-de-dados.jpg "Banco de dados")
+# Turma: SI1N-A
+![Análises Ambientais](https://www.ecocerta.com/media/servicos/ambiental-5.png "Análises Ambientais")
 ### Componentes: João Victor Cardoso Baptista, Marcio Pinheiro Mendes 
 ### TEMA : Empresa de análises ambientais
 
-A empresa presta serviços de análises ambientais de água, efluentes, alimentos e solo. As análises abrangem as áreas de microbiologia e físico-química em diversos estados do Brasil. Nos últimos anos, a empresa apostou na inovação, trazendo para o Brasil tecnologias exclusivas na areá de conservação de corpos hidricos e processos oxidativos avançados.
+A empresa presta serviços de análises ambientais de água, efluentes, alimentos e solo. As análises abrangem as áreas de microbiologia e físico-química em diversos estados do Brasil. Nos últimos anos, a empresa apostou na inovação, trazendo para o Brasil tecnologias exclusivas na areá de conservação de corpos hidricos (CCH) e processos oxidativos avançados (TAE).
 
 A empresa conta com um setor comercial, que é o responsável por vender ou negociar serviços com os clientes. Conta também com um setor de amostragem, que é o responsável por visitar o local do cliente para coletar amostras. As amostras são levadas de volta à empresa para dar entrada no laboratório. Assim que é feita a entrada, elas são distribuídas para as diferentes análises.
 
