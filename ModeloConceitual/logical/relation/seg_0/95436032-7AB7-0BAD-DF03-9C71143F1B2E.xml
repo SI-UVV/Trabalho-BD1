@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TAE_FTT" directorySegmentName="seg_0" id="95436032-7AB7-0BAD-DF03-9C71143F1B2E">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-03-16 19:09:08 UTC</createdTime>
+<ownerDesignName>ModeloConceitual</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4606B958-F64A-77CA-81DB-95BC7120946B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>4B536107-2FD7-6B83-C514-82FB044AB797</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="comercial_CCH" directorySegmentName="seg_0" id="0AA8195C-59B9-3D5F-13AD-476ECD3190E0">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-03-16 19:06:58 UTC</createdTime>
+<ownerDesignName>ModeloConceitual</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0A179896-2C10-33F3-3226-6BC755B845C8</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A2C0C10E-C593-651A-8760-5305EC3CAC63</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

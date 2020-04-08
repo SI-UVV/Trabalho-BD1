@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="comercial_TAE" directorySegmentName="seg_0" id="2AE4E983-7D63-7EC7-7DDF-C74204DF97FC">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-03-16 19:10:47 UTC</createdTime>
+<ownerDesignName>ModeloConceitual</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0A179896-2C10-33F3-3226-6BC755B845C8</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7E84297A-12B0-5C1A-A445-374C3C6C6723</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
