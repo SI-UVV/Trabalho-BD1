@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4A0CC6DC-AD44-3B66-5A3E-C372D7EFB0D9" name="Reagentes">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-03-16 18:16:52 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nome" id="B933CA05-545B-99C1-069E-4FBF9319BE65">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 22:58:40 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Validade" id="7CE4BF59-6F34-8853-B320-55D3DABF8823">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 22:58:55 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fornecedor" id="4D3B7EE0-6537-5776-0C72-622748481AC6">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 22:59:12 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado Físico" id="00D1C176-EF44-2792-94F0-2EB79B5A4C27">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 22:59:56 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Concentração/Pureza" id="C0C0C8A3-FA32-828E-EC1A-516D44E9F495">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 23:00:49 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="22002224-34F1-9224-64DC-2CC6FC84F8A5" name="UID_reagente">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-13 14:05:16 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>B933CA05-545B-99C1-069E-4FBF9319BE65,4D3B7EE0-6537-5776-0C72-622748481AC6,C0C0C8A3-FA32-828E-EC1A-516D44E9F495</newElementsIDs>
+<usedAttributes>
+<attributeRef>B933CA05-545B-99C1-069E-4FBF9319BE65</attributeRef>
+<attributeRef>4D3B7EE0-6537-5776-0C72-622748481AC6</attributeRef>
+<attributeRef>C0C0C8A3-FA32-828E-EC1A-516D44E9F495</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

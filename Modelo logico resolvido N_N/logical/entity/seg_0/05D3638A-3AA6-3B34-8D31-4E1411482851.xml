@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="05D3638A-3AA6-3B34-8D31-4E1411482851" name="Amostra_Analista">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 23:31:15 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Matrícula" id="E03549FC-9A69-1278-CEFE-956499420CAF">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 23:32:14 UTC</createdTime>
+<generatorID>42D2D891-B7B2-B00E-07B8-3448B0234980</generatorID>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<referedAttribute>1AF8C2CC-A2FD-7433-0DD5-4C8032A421F4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="172FE5A3-8951-B009-D42B-3D7F76909C2A">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 23:33:19 UTC</createdTime>
+<generatorID>71DF3056-0E1E-6F2A-AEA7-A83EB44287F9</generatorID>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<referedAttribute>6391C0B7-1FFA-79FD-BD84-9B8887F18AE6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

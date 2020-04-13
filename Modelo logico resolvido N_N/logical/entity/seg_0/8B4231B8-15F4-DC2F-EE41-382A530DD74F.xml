@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8B4231B8-15F4-DC2F-EE41-382A530DD74F" name="ClienteLab">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-03-16 18:15:22 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>3410B7F8-7F11-2067-7518-047FF42752C9</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CPF/CNPJ" id="CEB56761-8C8B-FC66-F211-BE24D45AEA2A">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 22:51:13 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="6314F85A-5E41-AAF2-D55C-C3BE3780A561">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 22:51:01 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefone" id="56F67081-D132-107B-5BD8-25EFF141A8C0">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 22:51:32 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="F86DB871-565C-ADE4-DC88-626F8DC5A245">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 22:51:39 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endereço" id="A96CB75D-A24F-1E16-20ED-89E7CE22CC25">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 22:51:56 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8588D25B-A08C-3FE8-E89F-E241E1B9097B" name="Cliente PK">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 22:51:25 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CEB56761-8C8B-FC66-F211-BE24D45AEA2A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

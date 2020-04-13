@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D057BA67-3766-A1ED-A593-59EFCE762AD5" name="AmostraTAE">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-03-27 00:26:29 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="8A3411A2-8BB2-063B-69EE-7FEBC4A97F9F">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 23:10:02 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo de amostra" id="5AC21575-BDA9-DB7B-BA8F-FAE48D38222C">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 23:10:07 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ponto de coleta" id="7F280D51-A136-524F-07CE-DF59DBC0E24A">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 23:10:13 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="23E9B2B1-32D7-5D78-06A6-E0755AB73480">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-13 14:06:27 UTC</createdTime>
+<generatorID>275F7F5B-CDDC-C59C-B931-76237DF019D6</generatorID>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<referedAttribute>15B8E7AA-519A-D92F-CBFE-3CF05F910709</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4AD9C39F-EC5C-8798-1AC4-B47B72CB1DED" name="AmostraTAE PK">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 23:10:06 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8A3411A2-8BB2-063B-69EE-7FEBC4A97F9F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

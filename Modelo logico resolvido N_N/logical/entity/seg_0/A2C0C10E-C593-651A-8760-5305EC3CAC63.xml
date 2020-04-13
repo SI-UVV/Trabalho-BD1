@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2C0C10E-C593-651A-8760-5305EC3CAC63" name="ClienteCCH">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-03-16 18:21:22 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>3410B7F8-7F11-2067-7518-047FF42752C9</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Matrícula1" id="6332B195-27E8-F51B-BF82-31575D07C026">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 22:04:55 UTC</createdTime>
+<generatorID>3780EF9E-8102-983E-F244-B3388AB1411D</generatorID>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<referedAttribute>35A83495-D557-8ED3-C2F0-C61E225084F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF/CNPJ" id="06E13C97-3104-B217-2B8D-A9415BFAC721">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 22:53:14 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="89476992-6EBD-1C1A-1746-115A32E29DA6">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 22:53:23 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endereço" id="19BA394C-BF39-3E8E-3B09-B395D0BF6A16">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 22:53:27 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefone" id="F7D323C6-EDAF-5AE5-A4AA-C2047F2C3B79">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 22:53:31 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="36D1D7B9-9FB6-1EDD-5773-149C874DF0E3">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 22:53:37 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B9431B83-4255-2482-2DEA-2CAD4B503228" name="ClienteCCH PK">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 22:53:21 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>06E13C97-3104-B217-2B8D-A9415BFAC721</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

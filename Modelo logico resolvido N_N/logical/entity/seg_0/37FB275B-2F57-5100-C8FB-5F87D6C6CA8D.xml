@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37FB275B-2F57-5100-C8FB-5F87D6C6CA8D" name="AmostraTAE_Analista">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 23:36:06 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Matrícula" id="35286814-BCDA-85AC-3A9C-16182190D65C">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 23:36:26 UTC</createdTime>
+<generatorID>93F04D66-9A1A-21EC-EDA5-CCDB11AC4C4E</generatorID>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<referedAttribute>1AF8C2CC-A2FD-7433-0DD5-4C8032A421F4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="41227E7D-A62B-3669-ECA4-B606274055A3">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 23:37:37 UTC</createdTime>
+<generatorID>4066D8A5-0527-05FA-ED5B-3296EF2C9128</generatorID>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<referedAttribute>8A3411A2-8BB2-063B-69EE-7FEBC4A97F9F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3201BEB9-E841-50DE-A0E8-DFBF63D8C9F3" name="AmostraTAE_Analista PK">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 23:36:54 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB316546-17E5-419B-5665-174DEA5582CB" name="Reagentes_Análise">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-09 23:41:57 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="998BF1E4-C7F9-FEEA-5A4F-ECD8DDDEF123">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-13 14:05:03 UTC</createdTime>
+<generatorID>41239C19-4C4B-C871-270D-0D3BED0D94D0</generatorID>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<referedAttribute>BC6DD749-887C-F94A-334B-3BB5C14B75A5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="54655BEB-2E5B-17F5-9353-BE61B3FDB3F1">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-13 14:05:49 UTC</createdTime>
+<generatorID>6BF48F6E-535F-0863-C3D7-CC51DCAB0E64</generatorID>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<referedAttribute>B933CA05-545B-99C1-069E-4FBF9319BE65</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fornecedor" id="D907860F-1041-CD8B-3E03-C1B1A2335F9C">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-13 14:05:49 UTC</createdTime>
+<generatorID>6BF48F6E-535F-0863-C3D7-CC51DCAB0E64</generatorID>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<referedAttribute>4D3B7EE0-6537-5776-0C72-622748481AC6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Concentração/Pureza" id="0F2FC9FB-2ECA-9742-9FB6-50BD5AD0F9F6">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-04-13 14:05:49 UTC</createdTime>
+<generatorID>6BF48F6E-535F-0863-C3D7-CC51DCAB0E64</generatorID>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<referedAttribute>C0C0C8A3-FA32-828E-EC1A-516D44E9F495</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

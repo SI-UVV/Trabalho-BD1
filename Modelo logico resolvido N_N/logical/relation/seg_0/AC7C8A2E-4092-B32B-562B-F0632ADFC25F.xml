@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="amostragem_cliente" directorySegmentName="seg_0" id="AC7C8A2E-4092-B32B-562B-F0632ADFC25F">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-03-16 18:34:41 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<targetPk>8588D25B-A08C-3FE8-E89F-E241E1B9097B</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>52CA5F33-0B47-6CFE-9927-D3AD337B3923</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>8B4231B8-15F4-DC2F-EE41-382A530DD74F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

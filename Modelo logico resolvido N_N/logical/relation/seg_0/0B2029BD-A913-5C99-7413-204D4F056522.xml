@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CCH_Dorotea" directorySegmentName="seg_0" id="0B2029BD-A913-5C99-7413-204D4F056522">
+<createdBy>Marcio Mendes</createdBy>
+<createdTime>2020-03-16 19:09:28 UTC</createdTime>
+<ownerDesignName>Modelo logico resolvido N_N</ownerDesignName>
+<engineerTo>
+<item key="F5E8D89C-084D-407B-E88C-D3669118A65D" value="true"/>
+</engineerTo>
+<sourcePk>3D8F0635-0E5E-BF6D-BACB-AA26321FD679</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9F258DAC-EF67-23EB-C5E3-2100C7C13B7B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B8237752-724B-A3EC-3CF9-31EA8D86FD53</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
