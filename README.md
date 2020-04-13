@@ -33,7 +33,7 @@ O setor de TAE trabalha com amostras, entretanto estas são separadas das demais
 
 ##### - O cliente TAE, amostrador TAE, amostragem TAE e amostra TAE se relacionam de forma análoga ao cliente, amostrador, amostragem e amostra do laboratório.
 
-##O banco de dados deve ser capaz de responder às seguintes perguntas:
+<h2>O banco de dados deve ser capaz de responder às seguintes perguntas:</h2>
 
 -Quais são os contratos fechados entre um certo período de tempo?
 
