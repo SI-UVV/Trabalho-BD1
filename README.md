@@ -36,14 +36,24 @@ O setor de TAE trabalha com amostras, entretanto estas são separadas das demais
 ##O banco de dados deve ser capaz de responder às seguintes perguntas:
 
 -Quais são os contratos fechados entre um certo período de tempo?
+
 -Quais são as amostras coletadas para um determinado contrato?
+
 -Quais análises foram realizadas para um determinado contrato?
+
 -Quais analistas participaram de um certo contrato?
+
 -Com quais reagentes um determinado analista teve contato?
+
 -Quem foi o responsável pela mobilização para um cliente CCH específico?
+
 -Quantos problemas técnicos ocorreram durante o contrato de determinado cliente CCH?
+
 -Qual o vendedor conseguiu mais contratos para o TAE?
+
 -Quantas amostragens do TAE foram necessárias para atender um determinado cliente?
+
 -Qual é o tipo de análise mais frequente para os serviços do TAE e do laboratório?
+
 -Qual é o reagente mais utilizado para os serviços do TAE e do laboratório?
 
