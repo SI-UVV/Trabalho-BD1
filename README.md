@@ -57,3 +57,10 @@ O setor de TAE trabalha com amostras, entretanto estas são separadas das demais
 
 -Qual é o reagente mais utilizado para os serviços do TAE e do laboratório?
 
+
+1ª FN - Um atributo de uma determinada entidade deve ser absoluto. Não podem ser gerados atributos ou características adicionais relacionados a este. Em outras palavras, se um atributo por si só tem características que o descrevem, este pode ser tratado como uma entidade.
+
+2ª FN - um atributo deve ser uma característica dependente da entidade na qual está inserido. Se existe uma entidade com uma atributo (característica) não relacionada a esta, este atributo deve ser movido.
+
+3ª FN - Qualquer atributo que não seja UID dentro de uma entidade não pode ser dependente de outro, a não ser que este outro seja UID.
+
