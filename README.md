@@ -13,9 +13,11 @@ Os dois novos setores da empresa trabalham de forma um pouco diferenciada. O set
 
 O setor de TAE trabalha com amostras, entretanto estas são separadas das demais amostras do laboratório, embora sejam feitas as mesmas análises, pelos mesmos analistas. Em caso de necessidade de suporte, a equipe pode entrar em contato direto com o fornecedor da tecnologia.
 
-##### - O setor comercial da empresa pode ter contratos com vários clientes mas pode não ter nenhum. Cada cliente obrigatoriamente tem que estar ligado ao setor comercial da empresa. O mesmo setor comercial entra em contato com os clientes do TAE e CCH, nas mesmas condições.
+##### - O setor comercial da empresa pode ter contratos com vários clientes mas pode não ter nenhum. Cada cliente obrigatoriamente tem que estar ligado ao setor comercial da empresa. O mesmo setor comercial entra em contato com os clientes do TAE e CCH, nas mesmas condições. Os clientes são representados pelas entidades "contrato".
 
-##### - Cada cliente pode, opcionalmente, estar relacionado a diversas amostragens. Entretanto, cada amostragem se relaciona uma única vez com cada cliente, obrigatoriamente.
+##### - Cada cliente do lab ou tae pode, opcionalmente, estar relacionado a diversas amostragens. Entretanto, cada amostragem se relaciona uma única vez com cada cliente, obrigatoriamente. O setor cch não trabalha com amostragens.
+
+##### - Cada cliente (contrato) do tae ou cch tem dois funcionários da empresa envolvidos diretamente: um do setor comercial, que faz o primeiro contato com o cliente oferecendo os serviços, e o outro do respectivo setor, que promove o andamento do contrato em relação aos quesitos técnicos.
 
 ##### - Um amostragem tem obrigatoriamente um único amostrador. Entretanto, cada amostrador, opcionalmente, pode estar relacionado a várias amostragens.
 
@@ -25,9 +27,9 @@ O setor de TAE trabalha com amostras, entretanto estas são separadas das demais
 
 ##### - Um analista obrigatoriamente se relaciona com pelo menos uma análise, mas pode se relacionar com várias. Uma análise está relacionada, obrigatoriamente e unicamente a um analista.
 
-##### - Uma análise opcionalmente pode estar relacionado a vários reagentes. Um reagente pode, opcionalmente, estar relacionado a várias análises.
+##### - Uma análise opcionalmente pode estar relacionada a vários reagentes. Um reagente pode, opcionalmente, estar relacionado a várias análises.
 
-##### - Para os setores TAE ou CCH: um cliente se relaciona obrigatoriamente e unicamente com o setor. O setor, opcionalmente pode se relacionar com vários clientes.
+##### - Para os setores TAE ou CCH: um cliente se relaciona obrigatoriamente e unicamente com um funcionário do setor. O setor, opcionalmente pode se relacionar com vários clientes.
 
 ##### - Para a assistência técnica, o funcionamento é igual para os dois setores: o setor, opcionalmente pode estar relacionado a diversas assistências. Cada assistência, obrigatoriamente, se relaciona uma única vez com o setor.
 
