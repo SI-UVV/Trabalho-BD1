@@ -11,7 +11,7 @@ A empresa conta com um setor comercial, que é o responsável por vender ou nego
 
 Os dois novos setores da empresa trabalham de forma um pouco diferenciada. O setor de CCH não trabalha diretamente com amostras, mas sim com prestação de serviços diretamente no local do cliente. Quando um contrato é aceito, a equipe mobiliza para o local do serviço, sendo que um funcionário do CCH é o responsável por todo o processo. Em caso de necessidade de suporte, a equipe pode entrar em contato direto com o fornecedor da tecnologia.
 
-O setor de TAE trabalha com amostras, entretanto estas são separadas das demais amostras do laboratório, embora sejam feitas as mesmas análises, pelos mesmos analistas. Em caso de necessidade de suporte, a equipe pode entrar em contato direto com o fornecedor da tecnologia.
+O setor de TAE trabalha com amostras, entretanto estas são separadas das demais amostras do laboratório, embora sejam feitas as mesmas análises, pelos mesmos analistas.
 
 ##### - O setor comercial da empresa pode ter contratos com vários clientes mas pode não ter nenhum. Cada cliente obrigatoriamente tem que estar ligado ao setor comercial da empresa. O mesmo setor comercial entra em contato com os clientes do TAE e CCH, nas mesmas condições. Os clientes são representados pelas entidades "contrato".
 
@@ -31,8 +31,6 @@ O setor de TAE trabalha com amostras, entretanto estas são separadas das demais
 
 ##### - Para os setores TAE ou CCH: um cliente se relaciona obrigatoriamente e unicamente com um funcionário do setor. O setor, opcionalmente pode se relacionar com vários clientes.
 
-##### - Para a assistência técnica, o funcionamento é igual para os dois setores: o setor, opcionalmente pode estar relacionado a diversas assistências. Cada assistência, obrigatoriamente, se relaciona uma única vez com o setor.
-
 ##### - O cliente TAE, amostrador TAE, amostragem TAE e amostra TAE se relacionam de forma análoga ao cliente, amostrador, amostragem e amostra do laboratório.
 
 <h2>O banco de dados deve ser capaz de responder às seguintes perguntas:</h2>
@@ -48,8 +46,6 @@ O setor de TAE trabalha com amostras, entretanto estas são separadas das demais
 -Com quais reagentes um determinado analista teve contato?
 
 -Quem foi o responsável pela mobilização para um cliente CCH específico?
-
--Quantos problemas técnicos ocorreram durante o contrato de determinado cliente CCH?
 
 -Qual o vendedor conseguiu mais contratos para o TAE?
 
