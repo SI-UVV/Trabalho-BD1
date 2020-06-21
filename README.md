@@ -21,7 +21,7 @@ O setor de TAE trabalha com amostras, entretanto estas são separadas das demais
 
 ##### - Um amostragem tem obrigatoriamente um único amostrador. Entretanto, cada amostrador, opcionalmente, pode estar relacionado a várias amostragens.
 
-##### - Cada amostragem gera obrigatoriamente, pelo menos uma amostra. Uma mesma amostra não pode estar relacionada a mais de uma amostragem, devendo, obrigatoriamente, estar relacionado com alguma. Mais de uma amostra pode ser gerada na mesma amostragem, desde que a coleta seja realizada em pontos diferentes.
+##### - Cada amostragem gera obrigatoriamente, uma amostra. Uma mesma amostra não pode estar relacionada a mais de uma amostragem, devendo, obrigatoriamente, estar relacionado com alguma.
 
 ##### - Uma amostra se relaciona obrigatoriamente com pelo menos um analista, mas pode se relacionar com vários. Um analista, opcionalmente, pode se relacionar com várias amostras.
 
