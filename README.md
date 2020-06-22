@@ -35,25 +35,21 @@ O setor de TAE trabalha com amostras, entretanto estas são separadas das demais
 
 <h2>O banco de dados deve ser capaz de responder às seguintes perguntas:</h2>
 
--Quais são os contratos fechados entre um certo período de tempo?
+-Quais são os contratos TAE fechados em um determinado ano?
 
 -Quais são as amostras coletadas para um determinado contrato?
 
--Quais análises foram realizadas para um determinado contrato?
+-Quais análises foram realizadas para um determinado contrato LAB?
 
--Quais analistas participaram de um certo contrato?
+-Quais analistas participaram de um certo contrato TAE?
 
 -Com quais reagentes um determinado analista teve contato?
 
--Quem foi o responsável pela mobilização para um cliente CCH específico?
+-Quem foi o responsável pela mobilização em uma data específica?
 
--Qual o vendedor conseguiu mais contratos para o TAE?
+-Listar os funcionários do setor comercial que venderam contratos para o TAE, ordenado pelo número de vendas.
 
--Quantas amostragens do TAE foram necessárias para atender um determinado cliente?
-
--Qual é o tipo de análise mais frequente para os serviços do TAE e do laboratório?
-
--Qual é o reagente mais utilizado para os serviços do TAE e do laboratório?
+-Quantas amostragens do TAE foram realizadas para atender um determinado cliente?
 
 
 1ª FN - Um atributo de uma determinada entidade deve ser absoluto. Não podem ser gerados atributos ou características adicionais relacionados a este. Em outras palavras, se um atributo por si só tem características que o descrevem, este pode ser tratado como uma entidade.
